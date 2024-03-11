@@ -1,0 +1,33 @@
+.UserPage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#a1a1a1;
+    overflow-y: auto;
+}
+.moviesUserPageWrapper{
+    display:flex;
+    max-width: 1621px;
+}
+.iconDelete{
+    margin: 5px;
+    transition: 0.5s; 
+    display: block;
+    cursor: pointer;
+}
+.iconDelete:hover {
+    transform: scale(1.2); 
+}
+.wrapperIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 850px) {
+    .moviesUserPageWrapper{
+        display:flex;
+        flex-direction: column;
+    }
+  }

@@ -1,0 +1,87 @@
+
+.moviePage{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.movieWrapper{
+    max-width: 1040px;
+    display: flex;
+}
+.moviePoster{
+    width: 400px;
+}
+.movieBackdrop{
+    width: 200px;
+    margin: 10px;
+}
+.movieImg{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.movieLogo{
+    margin: 20px;
+    width:350px ;
+    height: 200px;
+}
+.movieText{
+    display: flex;
+    flex-direction: column;
+}
+.movieName{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+}
+.movieDocs{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+}
+.movielu{
+    display: flex;
+    margin: 30px;
+    list-style-type:none;
+    font-size: 15px;
+}
+.movieli{
+    color: white;
+}
+.icon{
+    cursor:pointer;
+    margin: 5px;
+}
+
+@media (max-width: 840px) {
+    .moviePage{
+        width: 100%;
+        height: 100%;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+    }
+    .movieWrapper{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .movieLogo{
+        width: 300px;
+        margin: 20px;
+    }
+}
+@media(max-width:400px){
+    .moviePoster{
+        width: 200px;
+    }
+}
